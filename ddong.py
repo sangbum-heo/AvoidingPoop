@@ -1,5 +1,9 @@
 import pygame
 import random
+import os
+
+sourceFileDir = os.path.dirname(os.path.abspath(__file__))
+os.chdir(sourceFileDir)
 
 # pygame 초기화
 pygame.init()
